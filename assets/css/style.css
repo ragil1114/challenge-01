@@ -18,9 +18,12 @@ header {
 }
 
 header h1 {
-    margin: 0;
-    display: inline;
-    font-size: 48px;
+
+        font-weight: bold;
+        font-size: 36px;
+        color: #fce138;
+        margin: 0;
+        display: inline;
 }
 
 header h1 .seo {
@@ -192,12 +195,14 @@ p {
 }
 
 footer {
+    width: 100%;
     text-align: center;
-    padding: 30px;
+    padding: 40px 35px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: #2a607c;
+    color: #fff;
+    background-color: #2a607c;
 }
 
 footer h2 {
@@ -205,5 +210,5 @@ footer h2 {
 }
 
 footer a {
-    color: #2a607c
+    color: #fff
 }
