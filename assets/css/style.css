@@ -1,15 +1,18 @@
+/* Universal selector to apply properties to entire document */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Style selector & declaration for body */
 body {
     color: #39a6b2;
     background-color: #d9dcd6;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Style selector & declaration for header */
 header {
     padding: 20px 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,17 +22,18 @@ header {
 
 header h1 {
 
-        font-weight: bold;
-        font-size: 36px;
-        color: #fce138;
-        margin: 0;
-        display: inline;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    display: inline;
 }
 
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Style selector & declaration properties for Navbar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -194,6 +198,7 @@ p {
     font-size: 36px;
 }
 
+/* Style selector & declaration for footer */
 footer {
     width: 100%;
     text-align: center;
