@@ -35,7 +35,7 @@ The images saved within the assets folder are to be included within the web appl
 
 * Here is the URL for the webpage:
 
-
+https://ragil1114.github.io/challenge-01/
 
 * Github URL:
 
